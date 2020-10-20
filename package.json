@@ -1,0 +1,28 @@
+{
+  "name": "checkpoint-prototypes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/*[sS]pec.js --random=false --reporter=jasmine-console-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/checkpoint-prototypes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/checkpoint-prototypes/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/checkpoint-prototypes#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "jasmine": "^3.6.1",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
