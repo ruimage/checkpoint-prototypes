@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine spec/*[sS]pec.js --random=false --reporter=jasmine-console-reporter"
+    "test": "jest spec/*[sS]pec.js -i"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,7 @@
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jasmine": "^4.1.1",
-    "jasmine": "^3.6.1",
-    "jasmine-console-reporter": "^3.1.0"
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
   }
 }

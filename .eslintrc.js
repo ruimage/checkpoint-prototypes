@@ -4,7 +4,7 @@ module.exports = {
     commonjs: true,
     es2021: true,
     node: true,
-    jasmine: true,
+    jest: true,
   },
   extends: [
     'airbnb-base',
@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 12,
   },
   plugins: [
-    'jasmine',
+    'jest',
   ],
   rules: {
   },
