@@ -26,7 +26,7 @@ describe('Система контроля за домашними животны
     });
     it('прячет метод "say" в прототип', () => {
       const cat = new Cat();
-      expect(Object.prototype.hasOwnProperty.call(cat, 'say')).toBeFalse();
+      expect(Object.prototype.hasOwnProperty.call(cat, 'say')).toBeFalsy();
       expect(Object.getPrototypeOf(cat).say).toBeInstanceOf(Function);
     });
   });
@@ -54,7 +54,7 @@ describe('Система контроля за домашними животны
     });
     it('прячет метод "say" в прототип', () => {
       const dog = new Dog();
-      expect(Object.prototype.hasOwnProperty.call(dog, 'say')).toBeFalse();
+      expect(Object.prototype.hasOwnProperty.call(dog, 'say')).toBeFalsy();
       expect(Object.getPrototypeOf(dog).say).toBeInstanceOf(Function);
     });
   });
