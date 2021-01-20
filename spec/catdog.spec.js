@@ -39,7 +39,7 @@ describe('Система контроля за домашними животны
       const dog = new Dog(name);
       expect(dog.name).toBe(name);
     });
-    it('позволяет указать возраст кошки', () => {
+    it('позволяет указать возраст собаки', () => {
       const age = 5;
       const dog = new Dog('Жучка', age);
       expect(dog.age).toBe(age);
