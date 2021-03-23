@@ -75,7 +75,7 @@ describe('Система контроля за домашними животны
       expect(Cat.prototype.constructor).toBe(Cat);
       expect(Dog.prototype.constructor).toBe(Dog);
     });
-    it('гарантирует, что у кошки и собаки общий потомок', () => {
+    it('гарантирует, что у кошки и собаки общий предок', () => {
       const parentCatConstructor = Object.getPrototypeOf(Cat.prototype).constructor;
       const parentDogConstructor = Object.getPrototypeOf(Dog.prototype).constructor;
       expect(parentCatConstructor).toBe(parentDogConstructor);
